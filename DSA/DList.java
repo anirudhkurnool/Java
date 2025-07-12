@@ -112,4 +112,10 @@ public class DList {
 
         throw new IllegalAccessException("element not present in the list");
     }
+
+    public void swap(int pos1, int pos2) {
+        int temp = this.arr[pos1];
+        this.arr[pos1] = this.arr[pos2];
+        this.arr[pos2] = temp;
+    }
 }

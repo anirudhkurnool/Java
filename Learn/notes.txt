@@ -1,0 +1,57 @@
+Java is a stack based language 
+
+JAVA_HOME environment variable 
+OpenJDK - open source 
+JDK - Java Developmenet Kit - Libraries and DevTools
+JDK {
+    JRE {
+        JVM
+    }
+}
+
+
+Machine Independent(Compilation) => src.java -> Java Compiler(javac) -> Bytecode
+Machine Dependent(Interpretation) => Bytecode -> Java Virtual Machine ->Machine Code
+
+If a constructor is not given in the code the java compiler automatically adds a default non parameterized constructor
+
+Steps to run Java Code
+(1)javac src.java => this produces a src.class file which is the byte code 
+(2)java src => This interprets the byte code to machine code. java src.class will give you an error .class is not necessary
+
+Steps that JVM takes to interpret the Bytecode(???)
+(1)Parses the whole bytecode to group instructions
+(2)Groups the instructions 
+(3)Instructions are run one by one
+
+JVM parses the code twice ?? 
+
+Usually compiler is fast and interpreter is slow.
+
+In JVM there is a thing called as the Just In Time (JIT) compiler.
+If some block of code is getting executed multiple times then that block is compiled and kept ready
+
+All the code in java should be inside a class whose name should be same as the file name 
+
+class HelloWorld {
+    public static void main(String[] args){
+        System.out.println("Hello, World!!!");
+    }
+}
+
+
+main method is the entry point of the java code 
+
+function signature in java (?) - access modifier + static / non static + return type + function name
+public - access modifier which indicates that this method can be accessed outside the class
+static - a class method rather than a instance method
+void   - return type 
+
+Arguments 
+String[] args = array of strings 
+For the main methods all the command line arguments are passed in this array
+
+System - java package which provides access to the System
+out    - instance of PrintStream class within the instance class 
+
+All statements should end with ";" in java
