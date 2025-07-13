@@ -1,7 +1,7 @@
 Java is a stack based language 
 
 JAVA_HOME environment variable 
-OpenJDK - open source 
+OpenJDK - open source but only source code 
 JDK - Java Developmenet Kit - Libraries and DevTools
 JDK {
     JRE {
@@ -55,3 +55,14 @@ System - java package which provides access to the System
 out    - instance of PrintStream class within the instance class 
 
 All statements should end with ";" in java
+
+========= Data Types in Java ========= 
+(I)Primitive Data Type (?)
+    (1)byte 
+    (2)int
+    (3)short 
+    (4)double 
+    (5)float
+    (6)boolean
+    (7)char
+(II)
